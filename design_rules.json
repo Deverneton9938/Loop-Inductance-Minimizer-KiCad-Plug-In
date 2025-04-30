@@ -1,0 +1,28 @@
+{
+    "min_trace_width": 0.127,
+    "min_clearance": 0.127,
+    "min_component_spacing": 0.2,
+    "hole_size": {
+      "min_hole_diameter": 0.2,
+      "min_via_diameter": 0.45,
+      "min_annular_ring": 0.127
+    },
+    "solder_mask": {
+      "min_solder_mask_clearance": 0.05,
+      "min_solder_mask_sliver": 0.1
+    },
+    "silkscreen": {
+      "min_line_width": 0.15,
+      "min_text_height": 0.8
+    },
+    "board": {
+      "min_edge_clearance": 0.5,
+      "max_board_size": {
+        "width": 510,
+        "height": 460
+      },
+      "min_board_thickness": 0.4,
+      "max_board_thickness": 2.0
+    }
+  }
+  

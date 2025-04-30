@@ -1,0 +1,16 @@
+{
+    "name": "Enhanced PCB Design Plugin",
+    "version": "1.0",
+    "description": "A tool that optimizes traces and PCB footprints to reduce loop inductance throughout your project.",
+    "author": "Deverneton Saint Paul",
+    "license": "Open-Source",
+    "actions": [
+        {
+            "name": "Enhance",
+            "label": "Run My PCB Plugin",
+            "tooltip": "Moves components closer and widens traces",
+            "shortcuts": ["Ctrl+Shift+M"],
+            "callback": "main.EnhancedPCBPlugin"
+        }
+    ]
+}
