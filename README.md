@@ -1,5 +1,17 @@
 # Loop-Inductance-Minimizer-KiCad-Plug-In
 
+This KiCad 8 Plugin moves adjacent components closer together and widens traces to reduce loop inductance. Made for ECE Capstone II at the University of Missouri.
+
+To add this plugin, go to the KiCad directory in file system -> 8.0 -> scripting
+
+Include all project files in the scripting directory.
+
+Go to KiCad application -> PCB Editor -> Tools -> External Plugins -> Refresh Plugins
+
+Click on plugin icon (right next to scripting icon), enter target inductance and component shift percentage.
+
+Original inductance will be displayed once gerber files are generated and exported.
+
 This plugin is licensed under the GNU General Public License v3.0 (GPL-3.0).
 You are free to:
 •	Use this plugin for any purpose
